@@ -115,16 +115,16 @@ function App() {
   return (
     <div className={`${bg ? "daybg" : "bgNight"}`}>
       <div className="w-64 h-64 absolute cloud1 " ref={cloud1}>
-        <img src={Cloud} width="100%" height="100%" />
+        <img src={Cloud} width="100%" height="100%" alt="cloud" />
       </div>
       <div className="w-64 h-64 absolute cloud2 " ref={cloud2}>
-        <img src={Cloud} width="100%" height="100%" />
+        <img src={Cloud} width="100%" height="100%" alt="cloud" />
       </div>
       <div className="w-64 h-64 absolute cloud3 " ref={cloud3}>
-        <img src={Cloud} width="100%" height="100%" />
+        <img src={Cloud} width="100%" height="100%" alt="cloud" />
       </div>
       <div className="w-32 h-32 absolute ship " ref={ship}>
-        <img src={Ship} width="100%" height="100%" />
+        <img src={Ship} width="100%" height="100%" alt="ship" />
       </div>
       <div
         onClick={() => setBg(!bg)}
@@ -138,6 +138,7 @@ function App() {
           <img
             className="cursor-pointer"
             src={Cycle}
+            alt="cycle"
             width="100%"
             height="100%"
             onClick={speedUp}
