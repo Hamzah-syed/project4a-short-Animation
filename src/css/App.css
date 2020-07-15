@@ -1,0 +1,61 @@
+body {
+  overflow-x: hidden;
+}
+.daybg {
+  height: 100vh;
+  width: 100%;
+  z-index: -2;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgNight {
+  height: 100vh;
+  width: 100%;
+  z-index: -2;
+  background-image: url(../images/bgnight.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sunMoon {
+  top: 0;
+  right: 0;
+  margin: 10px;
+  cursor: pointer;
+  background-image: url(../images/sun.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sunshow {
+  background-image: url(../images/sun.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.moonshow {
+  background-image: url(../images/moon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cloud1 {
+  right: 500px;
+  top: 100px;
+  z-index: 1;
+}
+.cloud2 {
+  left: 400px;
+  z-index: 1;
+}
+.cloud3 {
+  top: -100px;
+  left: 800px;
+  z-index: 1;
+}
+
+.ship {
+  top: 350px;
+  left: 800px;
+  transform: scaleX(1);
+}
+.cycle {
+  bottom: 200px;
+}
